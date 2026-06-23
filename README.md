@@ -1,129 +1,114 @@
-Career Market Analytics
+# Career Market Analytics
 
-Overview
+A data analytics project exploring labor market trends across Data Science and Finance/Economics careers.
 
-Career Market Analytics is a data analytics project that explores labor market trends across Data Science and Finance/Economics careers using LinkedIn job posting data.
+## Project Overview
 
-The project investigates how salaries, skills, and experience requirements vary across industries and identifies the technical competencies most associated with high-paying roles.
+This project analyzes job posting data to identify:
 
-Project Objectives
+- Salary trends
+- Experience-level compensation differences
+- In-demand technical skills
+- Career progression patterns
+- Cross-industry comparisons
 
-* Analyze salary trends across Data Science and Finance/Economics careers
-* Identify the most in-demand technical skills
-* Examine how experience requirements impact compensation
-* Compare technical skill demand across industries
-* Develop practical data analytics workflows using Python
+The goal is to better understand how labor market demand differs across quantitative career paths.
 
-⸻
+---
 
-Datasets
+## Technologies Used
 
-Data Science Jobs
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
-* 944 Data Science job postings
-* Focus on salary trends, technical skills, and experience requirements
+---
 
-Finance & Economics Jobs
+## Project Structure
 
-* 3,912 Finance/Economics job postings
-* Sampled from a dataset containing over 123,000 LinkedIn job postings
-* Focus on salary trends, analytical skills, and industry demand
+```text
+data/
+notebooks/
+images/
+```
 
-Data Sources
+---
 
-* LinkedIn Job Postings Dataset
-* Public labor market datasets
+## Analyses Included
 
-⸻
+### Data Science Job Market Analysis
 
-Methodology
+Explores:
 
-The analysis pipeline consisted of:
+- Salary distribution
+- Seniority-level compensation
+- Skill demand
+- Industry hiring trends
 
-1. Data cleaning and preprocessing
-2. Salary normalization and filtering
-3. Skill extraction and frequency analysis
-4. Experience-level categorization
-5. Exploratory Data Analysis (EDA)
-6. Data visualization and interpretation
+Notebook:
 
-⸻
+```text
+notebooks/01_ds_job_market_analysis.ipynb
+```
 
-Technologies Used
+---
 
-* Python
-* pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
+### Finance & Economics Job Market Analysis
 
-⸻
+Explores:
 
-Key Findings
+- Compensation by experience level
+- Most requested skills
+- Market demand trends
 
-Data Science Careers
+Notebook:
 
-Salary by Seniority Level
+```text
+notebooks/02_fin_econ_job_market_analysis.ipynb
+```
 
-Observations
+---
 
-* Compensation generally increases with experience level
-* Senior and executive positions command significantly higher salaries
-* Entry-level roles provide a lower but more accessible starting point into the field
+## Visualizations
 
-⸻
+### Data Science Salaries by Seniority
 
-Finance & Economics Careers
+![Data Science Salary Analysis](images/ds_salary_by_seniority.png)
 
-Average Salary by Experience Level
+### Finance Average Salary by Experience
 
-Observations
+![Finance Salary Analysis](images/finance_avg_salary_by_experience.png)
 
-* Compensation increases steadily with experience
-* Mid-career professionals often experience the largest salary growth
-* Senior positions capture the highest compensation levels
+### Finance Top Skills
 
-Most Requested Skills
+![Finance Skills](images/finance_top_skills.png)
 
-Observations
+---
 
-* Analytical and quantitative skills remain highly valued
-* Technical competencies increasingly appear alongside traditional finance skills
-* Data-focused tools continue to gain importance within finance-related careers
+## Key Findings
 
-⸻
+### Data Science
 
-Repository Structure
+- Compensation generally increases with seniority
+- Senior and executive roles command significantly higher salaries
+- Entry-level roles provide accessible entry points into the field
 
-career-market-analytics/
-│
-├── data/
-├── images/
-├── notebooks/
-├── README.md
-├── requirements.txt
-└── .gitignore
+### Finance & Economics
 
-⸻
+- Salary growth follows experience progression
+- Quantitative and analytical skills remain highly demanded
+- Technical tools increasingly appear in finance job postings
 
-Future Work
+---
 
-Planned improvements include:
-
-* Interactive dashboards using Tableau or Power BI
-* Predictive salary modeling
-* Additional labor market datasets
-* Cross-industry career transition analysis
-* LLM-powered career intelligence tools
-
-⸻
-
-Author
+## Author
 
 Lavin Ma
 
-B.S. Mathematics–Computer Science, UC San Diego
+B.S. Mathematics–Computer Science  
+University of California, San Diego
 
-Incoming Master of Engineering (Data Science), UCLA
-
-GitHub: https://github.com/lavinma
+Incoming Master of Engineering (Data Science)  
+University of California, Los Angeles

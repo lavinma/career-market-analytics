@@ -1,45 +1,33 @@
-Data
+# Data
 
-Raw datasets are not stored directly in this repository due to size and licensing considerations.
+This directory contains the datasets used for the Career Market Analytics project.
 
-Datasets used:
+## Contents
 
-Data Science Job Postings with Salaries (2025)
+The data consists of job posting information collected for analytical and educational purposes. The datasets support analyses of:
 
-Source: Kaggle
+- Salary distributions
+- Experience-level compensation trends
+- Skill demand across industries
+- Career market comparisons
+- Labor market insights
 
-Contains:
+## Notes
 
-* Job titles
-* Salaries
-* Skills
-* Company metadata
-* Seniority levels
+Some datasets may have been cleaned, transformed, or aggregated before analysis.
 
-⸻
+The original raw data sources are not redistributed if subject to licensing restrictions.
 
-LinkedIn Job Postings (2023–2024)
+## Related Analyses
 
-Source: Kaggle
+The datasets in this folder are used by:
 
-Contains:
+- `notebooks/01_ds_job_market_analysis.ipynb`
+- `notebooks/02_fin_econ_job_market_analysis.ipynb`
 
-* 123,000+ job postings
-* Salary information
-* Experience levels
-* Company information
-* Skill mappings
-* Industry mappings
+## Tools Used
 
-⸻
-
-Data Access
-
-Datasets can be downloaded using KaggleHub:
-
-import kagglehub
-path = kagglehub.dataset_download("elahehgolrokh/data-science-job-postings-with-salaries-2025")
-import kagglehub
-path = kagglehub.dataset_download("arshkon/linkedin-job-postings")
-
-Raw data files are excluded from version control.
+- Python
+- pandas
+- NumPy
+- Jupyter Notebook

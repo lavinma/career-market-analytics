@@ -1,41 +1,22 @@
-Notebooks
+# Notebooks
 
-This directory contains the primary analyses for the Career Market Analytics project.
+This directory contains the analytical workflows used throughout the project.
 
-01_ds_ job_market_analysis.ipynb
+## Contents
 
-Analysis of a 2025 Data Science job postings dataset.
+### 01_ds_job_market_analysis.ipynb
 
-Topics include:
+Analysis of Data Science career opportunities, salary trends, and skill demand.
 
-* Salary cleaning and preprocessing
-* Skill frequency analysis
-* Salary by seniority level
-* SQL salary comparisons
-* Skill demand trends
+### 02_fin_econ_job_market_analysis.ipynb
 
-⸻
+Analysis of Finance and Economics job postings, compensation trends, and requested skills.
 
-02_fin_econ_job_market_analysis.ipynb
+## Tools
 
-Analysis of a finance and economics subset extracted from a large LinkedIn job postings dataset.
+- Python
+- pandas
+- NumPy
+- Matplotlib
 
-Topics include:
-
-* Finance role identification
-* Experience level distribution
-* Salary progression
-* Skill category analysis
-* Technical skill extraction from job descriptions
-
-⸻
-
-Future Work
-
-Potential extensions include:
-
-* Cross-industry comparison notebook
-* Geographic salary analysis
-* Remote vs on-site compensation analysis
-* Predictive salary modeling
-* Interactive dashboards
+All visualizations and findings in the project are generated from these notebooks.
