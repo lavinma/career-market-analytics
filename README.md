@@ -1,96 +1,120 @@
 Career Market Analytics
 
-A data analytics project exploring job market trends across Data Science and Finance/Economics careers using real-world job posting datasets.
+Overview
 
-Project Overview
+Career Market Analytics is a data analytics project that explores labor market trends across Data Science and Finance/Economics careers using LinkedIn job posting data.
 
-This project analyzes thousands of job postings to investigate:
+The project investigates how salaries, skills, and experience requirements vary across industries and identifies the technical competencies most associated with high-paying roles.
 
-* In-demand technical skills
-* Salary trends
-* Experience level requirements
-* Career progression patterns
-* Differences between industries
+Project Objectives
 
-The goal is to better understand labor market dynamics and identify skills that provide value across multiple career paths.
+* Analyze salary trends across Data Science and Finance/Economics careers
+* Identify the most in-demand technical skills
+* Examine how experience requirements impact compensation
+* Compare technical skill demand across industries
+* Develop practical data analytics workflows using Python
 
 ⸻
 
 Datasets
 
-1. Data Science Job Postings with Salaries (2025)
+Data Science Jobs
 
-* 944 job postings
-* Salary information
-* Skills information
-* Seniority levels
-* Company metadata
+* 944 Data Science job postings
+* Focus on salary trends, technical skills, and experience requirements
 
-2. LinkedIn Job Postings (2023–2024)
+Finance & Economics Jobs
 
-* 123,000+ LinkedIn job postings
-* Salary information
-* Experience levels
-* Company information
-* Industry mappings
-* Skills mappings
+* 3,912 Finance/Economics job postings
+* Sampled from a dataset containing over 123,000 LinkedIn job postings
+* Focus on salary trends, analytical skills, and industry demand
 
-A finance and economics subset containing 3,912 relevant postings was created for analysis.
+Data Sources
+
+* LinkedIn Job Postings Dataset
+* Public labor market datasets
 
 ⸻
 
-Key Findings
+Methodology
 
-Data Science Market
+The analysis pipeline consisted of:
 
-Most requested skills:
-
-* Python
-* Machine Learning
-* SQL
-* AWS
-* Deep Learning
-
-Salary was more strongly associated with seniority than with individual skills.
+1. Data cleaning and preprocessing
+2. Salary normalization and filtering
+3. Skill extraction and frequency analysis
+4. Experience-level categorization
+5. Exploratory Data Analysis (EDA)
+6. Data visualization and interpretation
 
 ⸻
 
-Finance & Economics Market
-
-Most requested skills:
-
-* Excel
-* Accounting
-* Risk Management
-* Forecasting
-* Valuation
-* Financial Modeling
-
-Technical skills such as SQL, Python, Tableau, and Power BI also appeared frequently.
-
-⸻
-
-Cross-Industry Observations
-
-Skills appearing across both industries:
-
-* SQL
-* Python
-* Data Analysis
-* Visualization Tools
-
-These skills may provide flexibility across technical and business-oriented career paths.
-
-⸻
-
-Tools Used
+Technologies Used
 
 * Python
 * pandas
 * NumPy
 * Matplotlib
 * Jupyter Notebook
-* KaggleHub
+
+⸻
+
+Key Findings
+
+Data Science Careers
+
+Salary by Seniority Level
+
+Observations
+
+* Compensation generally increases with experience level
+* Senior and executive positions command significantly higher salaries
+* Entry-level roles provide a lower but more accessible starting point into the field
+
+⸻
+
+Finance & Economics Careers
+
+Average Salary by Experience Level
+
+Observations
+
+* Compensation increases steadily with experience
+* Mid-career professionals often experience the largest salary growth
+* Senior positions capture the highest compensation levels
+
+Most Requested Skills
+
+Observations
+
+* Analytical and quantitative skills remain highly valued
+* Technical competencies increasingly appear alongside traditional finance skills
+* Data-focused tools continue to gain importance within finance-related careers
+
+⸻
+
+Repository Structure
+
+career-market-analytics/
+│
+├── data/
+├── images/
+├── notebooks/
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+⸻
+
+Future Work
+
+Planned improvements include:
+
+* Interactive dashboards using Tableau or Power BI
+* Predictive salary modeling
+* Additional labor market datasets
+* Cross-industry career transition analysis
+* LLM-powered career intelligence tools
 
 ⸻
 
@@ -100,4 +124,6 @@ Lavin Ma
 
 B.S. Mathematics–Computer Science, UC San Diego
 
-Incoming UCLA Master of Engineering (Data Science)
+Incoming Master of Engineering (Data Science), UCLA
+
+GitHub: https://github.com/lavinma
